@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px){
+    .logo img{
+        width: 120px;
+    }
+
+    .menu-items{
+        display: none;
+    }
+    .menu-items-select{
+        width: 100%;
+        display: inline-block;
+        text-align: right;
+        padding: 0 2%;
+    }
+    
+    .menu-items-select select{
+        width: 100%;
+        max-width: 120px;
+        padding: 8px;
+        outline: 0;
+        border-radius: 0.2rem;
+        text-align: center;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .card-movie{
+        width: 32.83%;
+        margin-top: 15px;
+        margin-right: 0.5%;
+    }
+
+}

@@ -62,6 +62,11 @@ header{
     transition: 700ms;
 }
 
+.menu-items-select{
+    width: 100%;
+    display: none;
+}
+
 .search{
     width: 40%;
     text-align: right;

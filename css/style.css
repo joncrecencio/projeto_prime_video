@@ -47,7 +47,7 @@ header{
     padding: 0 20px;
     margin-top: 10px;
     display: inline-block;
-    width: 40%;
+    width: 60%;
 }
 
 .menu-items a{
@@ -63,7 +63,7 @@ header{
 }
 
 .search{
-    width: 60%;
+    width: 40%;
     text-align: right;
 }
 

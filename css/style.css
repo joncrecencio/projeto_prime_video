@@ -86,7 +86,7 @@ header{
     border: 1px solid var(--menu-color);
     margin: 9px 0;
     padding-left: 24px;
-    background-color: rgb(40, 40, 40);
+    background-color: var(--primary-background);
     color: white;
     outline: 0;
     border-radius: 0.2rem;
@@ -98,4 +98,26 @@ header{
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.main h2{
+    color: var(--menu-color);
+    width: 100%;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.card-movie{
+    width: 19.5%;
+    margin-top: 15px;
+    margin-right: 0.5%;
+}
+
+.card-movie img{
+    width: 100%;
+    transition: 150ms;
+}
+
+.card-movie img:hover{
+    transform: scale(1.1, 1.1);
 }

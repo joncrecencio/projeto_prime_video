@@ -14,3 +14,80 @@
 body{
     background-color: rgb(37, 39, 48);
 }
+
+header{
+    padding: 8px 0;
+    background-color:var(--primary-background);
+}
+
+.center{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    max-width: 120px;
+    width: 100%;
+}
+
+.logo img{
+    max-width: 120px;
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+}
+
+.menu-items{
+    padding: 0 20px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 40%;
+}
+
+.menu-items a{
+    color: var(--menu-color);
+    margin-right: 10px;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.menu-items a:hover{
+    color: white;
+    transition: 700ms;
+}
+
+.search{
+    width: 60%;
+    text-align: right;
+}
+
+.input-search{
+    position: relative;
+    width: 200px;
+    display: inline-block;
+}
+
+.input-search i{
+    position: absolute;
+    left: 4px;
+    top: 15px;
+    color: var(--menu-color);
+}
+
+.input-search input[type=text]{
+    width: 100%;
+    height: 30px;
+    border: 1px solid var(--menu-color);
+    margin: 9px 0;
+    padding-left: 24px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    outline: 0;
+    border-radius: 0.2rem;
+}

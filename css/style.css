@@ -58,7 +58,7 @@ header{
 }
 
 .menu-items a:hover{
-    color: white;
+    color: rgb(107, 103, 103);
     transition: 700ms;
 }
 
@@ -116,11 +116,13 @@ header{
     width: 19.5%;
     margin-top: 15px;
     margin-right: 0.5%;
+    cursor: pointer;
 }
 
 .card-movie img{
     width: 100%;
     transition: 150ms;
+    cursor: pointer;
 }
 
 .card-movie img:hover{
